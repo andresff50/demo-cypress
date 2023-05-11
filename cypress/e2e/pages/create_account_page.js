@@ -1,3 +1,5 @@
+/// <reference types="cypress" />
+
 export class CreateAccountPage {
   elements = {
     lblTitleCreateAccount: () => cy.get("span[data-cy='title']"),

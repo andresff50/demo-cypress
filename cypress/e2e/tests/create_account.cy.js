@@ -2,7 +2,7 @@ const { CreateAccountSteps } = require('../steps/create_account_steps');
 
 describe('Create Account in MercadoLibre website', () => {
   beforeEach(() => {
-    cy.visit('https://www.mercadolibre.com.co/');
+    cy.visit('https://');
   });
 
   it('TC01 - create an account successfully', () => {
